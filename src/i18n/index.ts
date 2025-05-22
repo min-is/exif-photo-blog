@@ -8,15 +8,6 @@ export type I18NDeepPartial = {
   [key in keyof I18N]?: Partial<I18N[key]>;
 }
 
-/**
- * Translation steps for contributors:
- * 1. Create new file in `src/i18n/locales` modeled on `us-en.ts`.
- * 2. Add import to `localeTextImports`
- * 3. Add date-fn locale to `getDateFnLocale`
- * 4. Test locally
- * 5. Add translation/credit to `README.md` Supported Languages
- */
-
 const localeTextImports: Record<
   string,
   () => Promise<I18NDeepPartial | undefined>
