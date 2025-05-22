@@ -15,13 +15,13 @@ export const SHOULD_PREFETCH_ALL_LINKS: boolean | undefined = undefined;
 
 // TEMPLATE META
 
-export const TEMPLATE_TITLE = 'Photo Blog';
-export const TEMPLATE_DESCRIPTION = 'Store photos with original camera data';
+export const TEMPLATE_TITLE = 'LUMINOUS';
+export const TEMPLATE_DESCRIPTION = 'Moments in light';
 
 // SOURCE CODE
 
 export const TEMPLATE_REPO_OWNER  = 'min-is';
-export const TEMPLATE_REPO_NAME   = 'exif-photo-blog';
+export const TEMPLATE_REPO_NAME   = 'luminous';
 export const TEMPLATE_REPO_BRANCH = 'main';
 export const TEMPLATE_REPO_URL =
   `https://github.com/${TEMPLATE_REPO_OWNER}/${TEMPLATE_REPO_NAME}`;
