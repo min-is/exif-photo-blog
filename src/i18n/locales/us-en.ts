@@ -104,7 +104,7 @@ const TEXT = {
     loading: 'Loading ...',
     finishing: 'Finishing ...',
     uploading: 'Uploading',
-    repo: 'Made with',
+    repo: 'Powered by',
     copyPhrase: '{{label}} copied',
   },
   utility: {
